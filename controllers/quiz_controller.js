@@ -17,6 +17,7 @@ exports.author = function(req, res) {
   res.render('author', {
   	name: 'Quim Ferrer',
   	work: 'freelance',
-  	profile: 'PHP, JS frontend & Node.js developer'
+  	profile: 'PHP, JS frontend & Node.js developer',
+  	picture:'/images/profile.jpg'
   });
 };
