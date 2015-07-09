@@ -9,6 +9,7 @@ router.get('/', function(req, res) {
 });
 
 // Definición de rutas de /quizes
+router.get('/author', quizController.author);
 router.get('/quizes/question', quizController.question);
 router.get('/quizes/answer', quizController.answer);
 

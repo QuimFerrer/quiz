@@ -11,3 +11,12 @@ exports.answer = function(req, res) {
     res.render('quizes/answer', {respuesta: 'Incorrecto'});
   }
 };
+
+// GET author
+exports.author = function(req, res) {  
+  res.render('author', {
+  	name: 'Quim Ferrer',
+  	work: 'freelance',
+  	profile: 'PHP, JS frontend & Node.js developer'
+  });
+};
